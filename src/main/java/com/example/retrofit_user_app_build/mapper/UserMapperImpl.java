@@ -4,7 +4,9 @@ import com.example.retrofit_user_app_build.dto.UserRequestDTO;
 import com.example.retrofit_user_app_build.dto.UserResponseDTO;
 import com.example.retrofit_user_app_build.model.UsersModel;
 import org.apache.catalina.User;
+import org.springframework.stereotype.Component;
 
+@Component
 public class UserMapperImpl implements UserMapper {
 
     @Override
