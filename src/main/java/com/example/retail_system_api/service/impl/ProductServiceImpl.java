@@ -6,7 +6,6 @@ import com.example.retail_system_api.entity.CategoryEntity;
 import com.example.retail_system_api.entity.ProductsEntity;
 import com.example.retail_system_api.entity.StockEntity;
 import com.example.retail_system_api.enums.Status;
-import com.example.retail_system_api.exception.DuplicateResourceException;
 import com.example.retail_system_api.exception.ResourceNotFoundException;
 import com.example.retail_system_api.mapper.impl.ProductMapperImpl;
 import com.example.retail_system_api.repo.CategoryRepository;

@@ -61,7 +61,9 @@ public class SecurityConfig {
                 //   only permit register + login
                 .requestMatchers(HttpMethod.POST,
                         "/api/retail-system/v1/customers/register",
-                        "/api/retail-system/v1/customers/login"
+                        "/api/retail-system/v1/customers/login",
+                        "/api/retail-system/v1/otp/request-otp",
+                        "/api/retail-system/v1/otp/reset-password"
                 ).permitAll()
 
                 .requestMatchers(HttpMethod.GET,
